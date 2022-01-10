@@ -1,1 +1,2 @@
-console.log("hello");
+const data = 10;
+console.log(data);
