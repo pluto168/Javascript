@@ -58,12 +58,23 @@
 //   rep++;
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1; //truncate
-console.log(dice);
+// let dice = Math.trunc(Math.random() * 6) + 1; //truncate
+// console.log(dice);
 
-while (dice !== 6) {
-  console.log(`You rolled a ${dice} `);
-  dice = Math.trunc(Math.random() * 6) + 1;
-  if (dice === 6) console.log("Loop is about to end...");
-}
+// while (dice !== 6) {
+//   console.log(`You rolled a ${dice} `);
+//   dice = Math.trunc(Math.random() * 6) + 1;
+//   if (dice === 6) console.log("Loop is about to end...");
+// }
 // the while loop dose really not have to depend on any counter variable
+
+// const calcAverage = function (arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum += arr[i];
+//   }
+//   console.log(sum);
+//   return sum / arr.length;
+// };
+
+// console.log(calcAverage([1, 2, 3]));
