@@ -58,9 +58,12 @@
 //   rep++;
 // }
 
-let dice = Math.trunc(Math.random() * 6) + 1;
+let dice = Math.trunc(Math.random() * 6) + 1; //truncate
 console.log(dice);
 
 while (dice !== 6) {
   console.log(`You rolled a ${dice} `);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6) console.log("Loop is about to end...");
 }
+// the while loop dose really not have to depend on any counter variable
